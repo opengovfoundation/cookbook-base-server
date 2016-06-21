@@ -7,7 +7,16 @@
 # All rights reserved - Do Not Redistribute
 #
 
-include_recipe 'apt'
+# We know we need to update the default packages.
+# This is not always safe!
+# Be careful if you're using other system packages!
+case node['platform_family']
+when 'rhel', 'fedora'
+	execute 'yum update -y'
+when 'debian'
+	include_recipe 'apt::default'
+end
+
 include_recipe 'opengov-users::default'
 
 git_client 'default' do

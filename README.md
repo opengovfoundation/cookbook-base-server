@@ -1,27 +1,21 @@
 # base-server-cookbook
 
-TODO: Enter the cookbook description here.
+The base configuration we use for all of our servers at The OpenGov Foundation.
+
+This does a few things:
+
+* Updates `apt` or `yum`.
+* Creates our users (via our [users cookbook](https://github.com/opengovfoundation/cookbook-users)).
+* Installs git.
 
 ## Supported Platforms
 
-TODO: List your supported platforms.
+* RHEL/Fedora/CentOS
+* Debian/Ubuntu
 
 ## Attributes
 
-<table>
-  <tr>
-    <th>Key</th>
-    <th>Type</th>
-    <th>Description</th>
-    <th>Default</th>
-  </tr>
-  <tr>
-    <td><tt>['base-server']['bacon']</tt></td>
-    <td>Boolean</td>
-    <td>whether to include bacon</td>
-    <td><tt>true</tt></td>
-  </tr>
-</table>
+None at this time.
 
 ## Usage
 
@@ -37,6 +31,7 @@ Include `base-server` in your node's `run_list`:
 }
 ```
 
-## License and Authors
+## License
 
-Author:: YOUR_NAME (<YOUR_EMAIL>)
+[CC0 Licensed](https://creativecommons.org/publicdomain/zero/1.0/)
+
