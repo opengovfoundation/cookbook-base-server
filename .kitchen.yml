@@ -12,5 +12,5 @@ platforms:
 
 suites:
   - name: default
-    run_list: ["recipe[lamp-server]"]
+    run_list: ["recipe[base-server]"]
     attributes:

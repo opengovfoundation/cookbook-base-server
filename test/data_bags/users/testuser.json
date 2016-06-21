@@ -1,0 +1,9 @@
+{
+  "password": "$6$LyG4aJNb$EZJB5kfw7/C4emEYR5VYpTv4L9CUp8MsNxAMUfLhmEm4c.oRkWcYdk4RsDqXnJSLWxqrAOerwORYInbAiTQRq/",
+  "ssh_keys": [
+    "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDW/pq4AoYxvbVIXOWp/l7o9ulGQIYx7c8E3dfIHG9vM9vp3jGaxTKnTm4u5S66AD0D5VtOpkKsRl2vK/DDnCF+IO5VGAXdXo3u9fdqHUvnTpS1LXh0F4YpT0MereOPI9YFhJoDy1klii5k0bGZI3kBumU+ZbKBQTWhBn9Klc+8rkIEg1v+MX+vEd5QDbMuTzoMefY5cVyjYYFOYYgl5VijM9Em86IMjZkOvAESHP1OB2YMPVieuTRFACF0gxBTZOHUDEOmrMCyT/5X5rpL+oiINkqh9BIXCIQ7tnbCa4hvyV1oSp8+eZkKjqzgpKBpJxrxwjHXtNO21WZmzEcJsafT krues8dr@katsuume"
+  ],
+  "groups": ["staff"],
+  "shell": "/bin/bash",
+  "comment": "Bill Hunt"
+}
