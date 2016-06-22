@@ -22,3 +22,6 @@ include_recipe 'opengov-users::default'
 git_client 'default' do
   action :install
 end
+
+include_recipe 'git'
+include_recipe 'build-essential'
