@@ -17,6 +17,8 @@ when 'debian'
 	include_recipe 'apt::default'
 end
 
+include_recipe 'chef-client::config'
+include_recipe 'chef-client::init_service'
 include_recipe 'opengov-users::default'
 
 git_client 'default' do
